@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container" >
+    <h1>Verify Your Account</h1>
+    <div class="main">
+        <div class="intro">
+            <p>
+            We emailed you the six digit code to cool_guy@email.com
+                    <br>
+            Enter the code below to confirm your email address.
+            </p>
+        </div>
+        <div class="word">
+            <div class="otp" id="otpist" > <input type="text" id="ist" onkeyup="clickEvent(this,'sec')" placeholder="0" maxlength="1" > </div>
+            <div class="otp" id="otpsec"> <input type="text" id="sec" onkeyup="clickEvent(this,'third')" placeholder="0" maxlength="1" >  </div>
+            <div class="otp" id="otpthird"> <input type="text" id="third" onkeyup="clickEvent(this,'fourth')" placeholder="0" maxlength="1" >  </div>
+            <div class="otp" id="otpfourth"> <input type="text" id="fourth" onkeyup="clickEvent(this,'fifth')" placeholder="0" maxlength="1" >  </div>
+            <div class="otp" id="otpfifth"> <input type="text" id="fifth"  onkeyup="clickEvent(this,'six')" placeholder="0" maxlength="1" > </div>
+            <div class="otp" id="otpsix"> <input type="text" id="six" placeholder="0" maxlength="1" > </div>
+        </div>
+        <div class="msg" >
+            <p>
+            This is desgin only. We didn't actually send you an email as we 
+                <br>
+            don't have your email, right?
+            </p>
+        </div>
+    </div>    
+</div>
+
+ <script src="script.js" >
+ </script>   
+</body>
+</html>
